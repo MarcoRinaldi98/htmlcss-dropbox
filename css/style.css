@@ -23,6 +23,25 @@
     background-color: pink;
     border: 1px dashed black;
 }
+.debug .small-layout {
+    background-color: cornsilk;
+    border: 1px dashed black;
+    height: 500px;
+}
+.debug .columns {
+    background-color: aqua;
+    border: 1px dashed black;
+}
+.debug .col {
+    background-color: chocolate;
+    border: 1px dashed black;
+    height: 400px;
+}
+.debug .big-col {
+    background-color: chocolate;
+    border: 1px dashed black;
+    height: 200px;
+}
 
 /* Regole CSS */
 body {
@@ -60,6 +79,7 @@ a {
 }
 
 /* MAIN */
+/* section 1 */
 #jumbotron {
     background-color: rgb(180, 208, 231);
     padding-top: 10vh;
@@ -91,3 +111,43 @@ h1 {
 .big-column img {
     width: 100%;
 }
+
+/* section 2 */
+.buy-options {
+    padding-top: 100px;
+}
+.small-layout {
+    max-width: 970px;
+    margin: auto;
+}
+.small-layout h2 {
+    font-size: 36px;
+    padding-bottom: 30px;
+}
+span {
+    line-height: 20px;
+    vertical-align: middle;
+}
+span div {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.col {
+    width: calc(90% / 3 );
+    margin: 30px 0;
+}
+.big-col {
+    width: 100%;
+}
+
+/* section 3 */
