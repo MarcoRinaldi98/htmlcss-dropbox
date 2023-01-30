@@ -28,7 +28,7 @@ header {
 .header-left, .header-right {
     display: flex;
 }
-ul > li {
+header ul > li {
     display: inline-block;
     padding: 0 20px;
 }
@@ -72,7 +72,7 @@ h1 {
     margin-top: 100px;
     font-size: 50px;
 }
-.big-column img {
+.menu-img {
     width: 110%;
     height: 110%;
 }
@@ -87,11 +87,14 @@ h1 {
 }
 .small-layout h2 {
     font-size: 36px;
-    padding-bottom: 30px;
+}
+.check {
+    padding-top: 30px;
 }
 span {
     line-height: 20px;
     vertical-align: middle;
+    padding-right: 30px;
 }
 .circle {
     display: inline-block;
@@ -113,14 +116,82 @@ span {
 .col {
     width: calc(90% / 3 );
     margin: 30px 0;
+    border: 1px solid grey;
 }
 .big-col {
     width: 100%;
+    border: 1px solid grey;
 }
+.type {
+    width: 100%;
+    text-align: center;
+}
+.col-content {
+    padding: 10px;
+}
+.col-content ul{
+    margin: 20px 0;
+}
+li > span {
+    text-indent: 50px;
+}
+.col-content ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+.font-grey {
+    color: grey;
+}
+.offer {
+    display: flex;
+}
+.text {
+    padding-left: 5px;
+}
+.prova {
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    margin: 30px 0;
+    background-color: royalblue;
+}
+.acquista {
+    padding: 40px 0;
+}
+.acquista a{
+    text-decoration: underline;
+    color: blue;
+}
+.col-content hr {
+    width: 20%;
+}
+.c-blue {
+    color: blue;
+}
+.bg-col-content {
+    display: flex;
+    justify-content: space-between;
+}
+.bg-col-content-left {
+    width: 70%;
+    padding: 20px;
+}
+.bg-col-content-right {
+    width: 30%;
+    padding-right: 20px;
+}
+.bg-col-content ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
 
 /* section 3 */
 .partner {
     padding-top: 100px;
+}
+.partner-img {
+    width: 100%;
 }
 .bt-black {
     border: 1px solid black;
