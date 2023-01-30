@@ -13,6 +13,7 @@ body {
  
 /* HEADER */
 header {
+    background-color: white;
     height: 8vh;
     width: 100%;
     display: flex;
@@ -52,7 +53,7 @@ a {
     margin: auto;
 }
 h1 {
-    font-size: 80px;
+    font-size: 74px;
 }
 .container {
     display: flex;
@@ -72,7 +73,8 @@ h1 {
     font-size: 50px;
 }
 .big-column img {
-    width: 100%;
+    width: 110%;
+    height: 110%;
 }
 
 /* section 2 */
@@ -91,7 +93,7 @@ span {
     line-height: 20px;
     vertical-align: middle;
 }
-span div {
+.circle {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -99,6 +101,9 @@ span div {
     border-radius: 50%;
     line-height: 20px;
     vertical-align: middle;
+}
+.circle:first-child {
+    border: 5px solid blue;
 }
 .columns {
     display: flex;
