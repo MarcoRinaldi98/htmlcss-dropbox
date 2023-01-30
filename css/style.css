@@ -11,6 +11,18 @@
     background-color: yellow;
     border: 1px dashed black;
 }
+.debug .container {
+    background-color: gainsboro;
+    border: 1px dashed black;
+}
+.debug .small-column {
+    background-color: blue;
+    border: 1px dashed black;
+}
+.debug .big-column {
+    background-color: pink;
+    border: 1px dashed black;
+}
 
 /* Regole CSS */
 body {
@@ -48,3 +60,34 @@ a {
 }
 
 /* MAIN */
+#jumbotron {
+    background-color: rgb(180, 208, 231);
+    padding-top: 10vh;
+}
+.big-layout {
+    max-width: 1170px;
+    margin: auto;
+}
+h1 {
+    font-size: 80px;
+}
+.jumbotron-container {
+    display: flex;
+    margin: 30px 0;
+}
+.small-column {
+    width: 30%;
+}
+.big-column {
+    width: 70%;
+}
+.small-column > div{
+    margin: 50px 0;
+}
+.small-column i {
+    margin-top: 100px;
+    font-size: 50px;
+}
+.big-column img {
+    width: 100%;
+}
