@@ -41,6 +41,28 @@
     border: 1px dashed black;
     height: 200px;
 }
+.debug .aziende {
+    background-color: blue;
+    border: 1px dashed black;
+}
+.debug .logo-left{
+    background-color: yellow;
+    border: 1px dashed black;
+}
+.debug .logo-info{
+    border: 1px dashed black;
+}
+.debug .logo-right{
+    background-color: orange;
+    border: 1px dashed black;
+}
+.debug .logo {
+    border: 1px dashed black;
+}
+.debug .info {
+    background-color: aqua;
+    border: 1px dashed black;
+}
 
 /* Regole CSS */
 body {
@@ -181,3 +203,98 @@ span div {
 }
 
 /* section 5 */
+.aziende {
+    width: 100vw;
+    display: flex;
+}
+.logo-left {
+    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo-info {
+    width: 40vw;
+    background-color: rgb(245, 245, 245);
+}
+.logo-right {
+    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo {
+    width: calc(100% / 2);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    width: 6vw;
+}
+.info {
+    margin: 50px 20px 10px 30px;
+}
+.info img {
+    height: 100px;
+}
+.info hr {
+    width: 20%;
+    margin: 20px 0;
+}
+.info .author {
+    padding-top: 50px;
+}
+.green {
+    background-color: rgb(162, 211, 155);
+}
+.bordeaux {
+    background-color: rgb(97, 8, 43);
+}
+.heavenly{
+    background-color: rgb(0, 147, 206);
+}
+.red {
+    background-color: rgb(255, 28, 28);
+}
+.dark-red {
+    background-color: rgb(213, 0, 31);
+}
+.blue-sky {
+    background-color: rgb(180, 208, 231);
+}
+.blue {
+    background-color: rgb(13, 36, 129);
+}
+.yellow {
+    background-color: rgb(255, 216, 48);
+}
+
+/* section 6 */
+.start-business {
+    background-color: rgb(180, 208, 231);
+    padding: 100px 0;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.section-left {
+    width: 60%;
+}
+.section-left h2 {
+    color: rgb(97, 8, 43);
+}
+.section-right {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-right .button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+}
+
+
