@@ -171,5 +171,13 @@ span div {
 .operations {
     padding-top: 100px;
 }
+.utilizzi {
+    padding: 100px 0;
+    width: 60%;
+}
+.utilizzi a {
+    text-decoration: underline;
+    color: blue;
+}
 
 /* section 5 */
