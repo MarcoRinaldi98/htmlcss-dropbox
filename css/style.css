@@ -7,9 +7,44 @@
 }
 
 /* Regole di DEBUG */
-
+.debug header {
+    background-color: yellow;
+    border: 1px dashed black;
+}
 
 /* Regole CSS */
 body {
     font-family: 'Open Sans', sans-serif;
 }
+ 
+/* HEADER */
+header {
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+.header-left, .header-right {
+    display: flex;
+}
+ul > li {
+    display: inline-block;
+    padding: 0 20px;
+}
+.button {
+background-color: royalblue;
+color: white;
+padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* MAIN */
