@@ -63,6 +63,11 @@
     background-color: aqua;
     border: 1px dashed black;
 }
+.debug .footer-col {
+    height: 200px;
+    background-color: orange;
+    border: 1px dashed red;
+}
 
 /* Regole CSS */
 body {
@@ -308,5 +313,34 @@ span div {
     display: flex;
     justify-content: space-between;
     padding-right: 30px;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+    color: white;
+}
+footer .big-layout {
+    padding: 30px 0;
+}
+.footer-col {
+    width: calc(100% / 5);
+}
+.big-layout hr {
+    width: 10%;
+    margin: 100px 0 40px 0;
+}
+.language {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: middle;
+    padding: 0 5px;
+}
+footer .big-layout i {
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: middle;
 }
 
