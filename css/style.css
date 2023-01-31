@@ -143,9 +143,8 @@ li {
 /* HEADER */
 header {
     background-color: white;
-    height: 8vh;
+    height: 80px;
     width: 100%;
-    align-items: center;
     padding: 0 20px;
     position: fixed;
     top: 0;
@@ -154,10 +153,20 @@ header {
 }
 header  li {
     display: inline-block;
+    line-height: 80px;
+    vertical-align: middle;
+}
+header div {
+    line-height: 80px;
+    vertical-align: middle;
+}
+header .centra {
+    line-height: 80px;
+    vertical-align: bottom;
 }
 /* MAIN */
 main {
-    padding-top: 8vh;
+    padding-top: 80px;
 }
 /* section jumbotron */
 #jumbotron {
@@ -236,6 +245,31 @@ h1 {
 #free-try a {
     padding: 10px 30px;
 }
+/* section faq */
+.rel {
+    position: relative;
+}
+.down-1 {
+    position: absolute;
+}
+.up-1 {
+    position: absolute;
+    opacity: 0;
+}
+.down-2 {
+    position: absolute;
+}
+.up-2 {
+    position: absolute;
+    opacity: 0;
+}
+.down-3 {
+    position: absolute;
+}
+.up-3 {
+    position: absolute;
+    opacity: 0;
+}
 
 /* FOOTER */
 footer {
@@ -267,4 +301,82 @@ footer i {
     font-size: 14px;
     line-height: 20px;
     vertical-align: middle;
+}
+
+/* Interazioni con la pagina */
+.uno:hover {
+    border-bottom: 2px solid black;
+}
+.due:hover {
+    border-bottom: 2px solid black;
+}
+.tre:hover {
+    border-bottom: 2px solid black;
+}
+.quattro:hover {
+    border-bottom: 2px solid black;
+}
+.cinque:hover {
+    border-bottom: 2px solid black;
+}
+.sei:hover {
+    border-bottom: 2px solid black;
+}
+
+.bg-blue:hover {
+    background-color:cornflowerblue;
+}
+
+.bg-white:hover {
+    background-color: lightgrey;
+}
+
+.box-1:active .risposta-1:after {
+    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus placeat amet ducimus. Eos deleniti consectetur tempora fugiat, exercitationem atque nam autem voluptate quas tempore nemo sapiente fuga magnam corporis accusamus?';
+}
+.box-2:active .risposta-2:after {
+    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus placeat amet ducimus. Eos deleniti consectetur tempora fugiat, exercitationem atque nam autem voluptate quas tempore nemo sapiente fuga magnam corporis accusamus?';
+}
+.box-3:active .risposta-3:after {
+    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus placeat amet ducimus. Eos deleniti consectetur tempora fugiat, exercitationem atque nam autem voluptate quas tempore nemo sapiente fuga magnam corporis accusamus?';
+}
+.box-1:active .down-1 {
+    opacity: 0;
+}
+.box-1:active .up-1 {
+    opacity: 1;
+}
+.box-2:active .down-2 {
+    opacity: 0;
+}
+.box-2:active .up-2 {
+    opacity: 1;
+}
+.box-3:active .down-3 {
+    opacity: 0;
+}
+.box-3:active .up-3 {
+    opacity: 1;
+}
+
+.border-bordeaux:active {
+    border: 20px solid rgb(184, 62, 62);
+}
+.border-heavenly:active{
+    border: 20px solid rgb(159, 205, 223);
+}
+.border-red:active{
+    border: 20px solid rgb(151, 72, 72);
+}
+.border-dark-red:active{
+    border: 20px solid rgb(235, 93, 93);
+}
+.border-blue-sky:active{
+    border: 20px solid rgb(171, 219, 238);
+}
+.border-blue-dark:active{
+    border: 20px solid rgb(69, 69, 236);
+}
+.border-yellow:active{
+    border: 20px solid rgb(235, 235, 151);
 }
