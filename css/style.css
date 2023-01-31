@@ -5,19 +5,146 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Regole di DEBUG */
 
-/* Regole CSS */
+/* Regole CSS generali*/
 body {
     font-family: 'Open Sans', sans-serif;
 }
- 
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+.container-small {
+    max-width: 1000px;
+    margin: auto;
+}
+.d-flex {
+    display: flex;
+}
+.content-between {
+    justify-content: space-between;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.overflow {
+    overflow-y: scroll;
+}
+.w-10 {
+    width: 10%;
+}
+.w-20 {
+    width: 20%;
+}
+.w-30 {
+    width: 30%;
+}
+.w-40 {
+    width: 40%;
+}
+.w-50 {
+    width: 50%;
+}
+.w-60 {
+    width: 60%;
+}
+.w-70 {
+    width: 70%;
+}
+.w-100 {
+    width: 100%;
+}
+.button {
+    text-decoration: none;
+    padding: 10px;
+}
+.text-white {
+    color: white;
+}
+.text-black {
+    color: black;
+}
+.bg-white {
+    background-color: white;
+}
+.bg-blue {
+    background-color: royalblue;
+}
+.bg-gray {
+    background-color: rgb(245, 245, 245);
+}
+.bg-green {
+    background-color: rgb(162, 211, 155);
+}
+.bg-bordeaux {
+    background-color: rgb(97, 8, 43);
+}
+.bg-heavenly{
+    background-color: rgb(0, 147, 206);
+}
+.bg-red {
+    background-color: rgb(255, 28, 28);
+}
+.bg-dark-red {
+    background-color: rgb(213, 0, 31);
+}
+.bg-blue-sky {
+    background-color: rgb(180, 208, 231);
+}
+.bg-blue-dark {
+    background-color: rgb(13, 36, 129);
+}
+.bg-yellow {
+    background-color: rgb(255, 216, 48);
+}
+.lh-50 {
+    line-height: 50px;
+}
+.c-blue {
+    color: blue;
+}
+.c-grey {
+    color: grey;
+}
+.pl-10 {
+    padding-left: 10px;
+}
+.p-all-20 {
+    padding: 20px;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+.ptb-10 {
+    padding: 10px 0;
+}
+.ptb-50 {
+    padding: 50px 0;
+}
+.ptb-100 {
+    padding: 100px 0;
+}
+.mtb-30 {
+    margin: 30px 0;
+}
+.mtb-50 {
+    margin: 50px 0;
+}
+li {
+    list-style: none;
+}
+.text-center {
+    text-align: center;
+}
+.border {
+    border: 1px solid grey;
+}
 /* HEADER */
 header {
     background-color: white;
     height: 8vh;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 0 20px;
     position: fixed;
@@ -25,78 +152,35 @@ header {
     left: 0;
     z-index: 9999;
 }
-.header-left, .header-right {
-    display: flex;
-}
-header ul > li {
+header  li {
     display: inline-block;
-    padding: 0 20px;
 }
-.button {
-background-color: royalblue;
-color: white;
-padding: 10px;
-}
-a {
-    text-decoration: none;
-    color: black;
-}
-
 /* MAIN */
-/* section 1 */
-#jumbotron {
-    background-color: rgb(180, 208, 231);
-    padding-top: 10vh;
+main {
+    padding-top: 8vh;
 }
-.big-layout {
-    max-width: 1170px;
-    margin: auto;
+/* section jumbotron */
+#jumbotron {
+    background-color: #B4D0E7;
+}
+#jumbotron i {
+    font-size: 50px;
 }
 h1 {
     font-size: 74px;
 }
-.container {
-    display: flex;
-    margin: 30px 0;
-}
-.small-column {
-    width: 40%;
-}
-.big-column {
-    width: 60%;
-}
-.small-column > div{
-    margin: 50px 0;
-}
-.small-column i {
-    margin-top: 100px;
-    font-size: 50px;
-}
-.big-column .menu-img {
+.menu-img {
     width: 110%;
     height: 110%;
 }
 
-/* section 2 */
-.buy-options {
-    padding-top: 100px;
-}
-.small-layout {
-    max-width: 970px;
-    margin: auto;
-}
-.small-layout h2 {
-    font-size: 36px;
-}
-.check {
-    padding-top: 30px;
-}
-span {
+/* section plans */
+#plans span {
     line-height: 20px;
     vertical-align: middle;
     padding-right: 30px;
 }
-.circle {
+#plans .circle {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -105,248 +189,52 @@ span {
     line-height: 20px;
     vertical-align: middle;
 }
-.circle:first-child {
+#plans .circle:first-child {
     border: 5px solid blue;
 }
-.columns {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.col {
-    width: calc(90% / 3 );
-    margin: 30px 0;
-    border: 1px solid grey;
-}
-.big-col {
-    width: 100%;
-    border: 1px solid grey;
-}
-.type {
-    width: 100%;
-    text-align: center;
-}
-.col-content {
-    padding: 10px;
-}
-.col-content ul{
-    margin: 20px 0;
-}
-li > span {
-    text-indent: 50px;
-}
-.col-content ul li {
-    list-style: none;
-    padding: 10px 0;
-}
-.font-grey {
-    color: grey;
-}
-.offer {
-    display: flex;
-}
-.text {
-    padding-left: 5px;
-}
-.prova {
-    width: 100%;
-    line-height: 50px;
-    text-align: center;
-    margin: 30px 0;
-    background-color: royalblue;
-}
-.acquista {
-    padding: 40px 0;
-}
-.acquista a{
-    text-decoration: underline;
-    color: blue;
-}
-.col-content hr {
-    width: 20%;
-}
-.c-blue {
-    color: blue;
-}
-.bg-col-content {
-    display: flex;
-    justify-content: space-between;
-}
-.bg-col-content-left {
-    width: 70%;
-    padding: 20px;
-}
-.bg-col-content-right {
-    width: 30%;
-    padding-right: 20px;
-}
-.bg-col-content ul li {
-    list-style: none;
-    padding: 10px 0;
-}
 
-
-/* section 3 */
-.partner {
-    padding-top: 100px;
-}
+/* section partner */
 .partner-img {
     width: 100%;
 }
-.bt-black {
-    border: 1px solid black;
-    background-color: white;
-    color: black;
-    font-size: 18px;
-}
-.small-column h3{
-    font-size: 28px;
-    padding-bottom: 30px;
-}
-.partner > .container .small-column {
-    padding: 40px 0 0 20px;
-}
 
-/* section 4 */
-.operations {
-    padding-top: 100px;
-}
-.album {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 50px 0;
-}
-.card {
-    width: calc(100% / 3);
-    padding: 10px;
-}
-.menu-img {
+/* section operations */
+.op-img {
     width: 100%;
-    height: 250px;
 }
 
-
-
-
-
-.utilizzi {
-    padding: 100px 0;
-    width: 60%;
+/* section customer */
+.square {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
 }
-.utilizzi h2 {
-    padding-bottom: 40px;
-}
-.utilizzi .link {
-    text-decoration: underline;
-    color: blue;
-}
-
-/* section 5 */
-.aziende {
-    width: 100vw;
-    display: flex;
-}
-.logo-left {
-    width: 40vw;
-    display: flex;
-    flex-wrap: wrap;
-}
-.logo-info {
-    width: 40vw;
-    background-color: rgb(245, 245, 245);
-}
-.logo-right {
-    width: 40vw;
-    display: flex;
-    flex-wrap: wrap;
-}
-.logo {
-    width: calc(100% / 2);
-    height: 20vh;
+.small-square {
+    height: 50%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.logo img {
-    width: 6vw;
+.border-green {
+    border: 20px solid lightgreen;
 }
-.info {
-    margin: 50px 20px 10px 30px;
+.square img {
+    width: 50%;
 }
-.info img {
-    height: 100px;
-}
-.info hr {
-    width: 20%;
-    margin: 20px 0;
-}
-.info .author {
-    padding-top: 50px;
-}
-.green {
-    background-color: rgb(162, 211, 155);
-}
-.bordeaux {
-    background-color: rgb(97, 8, 43);
-}
-.heavenly{
-    background-color: rgb(0, 147, 206);
-}
-.red {
-    background-color: rgb(255, 28, 28);
-}
-.dark-red {
-    background-color: rgb(213, 0, 31);
-}
-.blue-sky {
-    background-color: rgb(180, 208, 231);
-}
-.blue {
-    background-color: rgb(13, 36, 129);
-}
-.yellow {
-    background-color: rgb(255, 216, 48);
+.overflow::-webkit-scrollbar { 
+    display: none;
 }
 
-/* section 6 */
-.start-business {
-    background-color: rgb(180, 208, 231);
-    padding: 100px 0;
+/* section free-try */
+#free-try {
+    background-color: #B4D0E7;
 }
-.content {
-    display: flex;
-    justify-content: space-between;
-}
-.section-left {
-    width: 60%;
-}
-.section-left h2 {
+#free-try h2 {
+    font-size: 44px;
     color: rgb(97, 8, 43);
 }
-.section-right {
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.section-right .button {
-    background-color: white;
-    color: black;
-    border: none;
-    padding: 10px 20px;
-}
-
-/* section 7 */
-.faq {
-    padding: 100px 0;
-}
-.faq hr {
-    margin: 30px 0;
-}
-.question {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 30px;
+#free-try a {
+    padding: 10px 30px;
 }
 
 /* FOOTER */
@@ -354,15 +242,18 @@ footer {
     background-color: black;
     color: white;
 }
-footer .big-layout {
-    padding: 30px 0;
-}
 .footer-col {
     width: calc(100% / 5);
 }
-.big-layout hr {
-    width: 10%;
-    margin: 100px 0 40px 0;
+footer h2 {
+    padding: 50px 0 20px 0;
+}
+footer li {
+    padding: 10px 0;
+}
+footer a {
+    text-decoration: none;
+    color: white;
 }
 .language {
     text-decoration: none;
@@ -372,16 +263,8 @@ footer .big-layout {
     vertical-align: middle;
     padding: 0 5px;
 }
-footer .big-layout i {
+footer i {
     font-size: 14px;
     line-height: 20px;
     vertical-align: middle;
 }
-.footer-col ul li {
-    list-style: none;
-    padding: 10px;
-}
-.footer-col ul li a{
-    color: white;
-}
-
