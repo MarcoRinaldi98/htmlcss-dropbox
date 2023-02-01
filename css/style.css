@@ -229,12 +229,16 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .border-green {
     border: 20px solid lightgreen;
 }
 .square img {
     width: 50%;
+}
+.invert {
+    filter: invert(100%);
 }
 .overflow::-webkit-scrollbar { 
     display: none;
@@ -334,7 +338,7 @@ footer i {
 }
 
 .bg-white:hover {
-    background-color: lightgrey;
+    background-color: rgb(245, 245, 245);
 }
 
 .box-1:hover .risposta-1:after {
