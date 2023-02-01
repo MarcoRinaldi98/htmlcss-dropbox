@@ -150,6 +150,7 @@ header {
     top: 0;
     left: 0;
     z-index: 9999;
+    box-shadow: 0px 0px 5px 0px lightgrey;
 }
 header  li {
     display: inline-block;
@@ -331,31 +332,31 @@ footer i {
     background-color: lightgrey;
 }
 
-.box-1:active .risposta-1:after {
+.box-1:hover .risposta-1:after {
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus placeat amet ducimus. Eos deleniti consectetur tempora fugiat, exercitationem atque nam autem voluptate quas tempore nemo sapiente fuga magnam corporis accusamus?';
 }
-.box-2:active .risposta-2:after {
+.box-2:hover .risposta-2:after {
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus placeat amet ducimus. Eos deleniti consectetur tempora fugiat, exercitationem atque nam autem voluptate quas tempore nemo sapiente fuga magnam corporis accusamus?';
 }
-.box-3:active .risposta-3:after {
+.box-3:hover .risposta-3:after {
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus placeat amet ducimus. Eos deleniti consectetur tempora fugiat, exercitationem atque nam autem voluptate quas tempore nemo sapiente fuga magnam corporis accusamus?';
 }
-.box-1:active .down-1 {
+.box-1:hover .down-1 {
     opacity: 0;
 }
-.box-1:active .up-1 {
+.box-1:hover .up-1 {
     opacity: 1;
 }
-.box-2:active .down-2 {
+.box-2:hover .down-2 {
     opacity: 0;
 }
-.box-2:active .up-2 {
+.box-2:hover .up-2 {
     opacity: 1;
 }
-.box-3:active .down-3 {
+.box-3:hover .down-3 {
     opacity: 0;
 }
-.box-3:active .up-3 {
+.box-3:hover .up-3 {
     opacity: 1;
 }
 
