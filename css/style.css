@@ -113,8 +113,14 @@ body {
 .p-all-20 {
     padding: 20px;
 }
+.pt-50 {
+    padding-top: 50px;
+}
 .pt-100 {
     padding-top: 100px;
+}
+.pt-150 {
+    padding-top: 150px;
 }
 .ptb-10 {
     padding: 10px 0;
@@ -140,6 +146,7 @@ li {
 .border {
     border: 1px solid grey;
 }
+
 /* HEADER */
 header {
     background-color: white;
@@ -157,6 +164,9 @@ header  li {
     line-height: 80px;
     vertical-align: middle;
 }
+#logo-img{
+    vertical-align: middle;
+}
 /* MAIN */
 main {
     padding-top: 80px;
@@ -172,8 +182,11 @@ h1 {
     font-size: 74px;
 }
 .menu-img {
-    width: 110%;
-    height: 110%;
+    width: 100%;
+}
+#jumbotron .container {
+    position: relative;
+    bottom: -70px;
 }
 
 /* section plans */
