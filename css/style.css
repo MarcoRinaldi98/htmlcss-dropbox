@@ -207,6 +207,9 @@ h1 {
 #plans .circle:first-child {
     border: 5px solid blue;
 }
+.block {
+    display: block;
+}
 
 /* section partner */
 .partner-img {
@@ -314,24 +317,10 @@ footer i {
 }
 
 /* Interazioni con la pagina */
-.uno:hover {
+.underline:hover {
     border-bottom: 2px solid black;
 }
-.due:hover {
-    border-bottom: 2px solid black;
-}
-.tre:hover {
-    border-bottom: 2px solid black;
-}
-.quattro:hover {
-    border-bottom: 2px solid black;
-}
-.cinque:hover {
-    border-bottom: 2px solid black;
-}
-.sei:hover {
-    border-bottom: 2px solid black;
-}
+
 
 .bg-blue:hover {
     background-color:cornflowerblue;
